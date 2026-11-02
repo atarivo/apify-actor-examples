@@ -20,9 +20,9 @@ Every open job from the Greenhouse, Lever and Ashby boards you list: title, loca
 
 <a id="ats-jobs-api-workable-recruitee-personio-teamtailor"></a>
 
-## [Workable, Recruitee, Personio & Teamtailor Jobs API](https://apify.com/atarivo/ats-jobs-api-workable-recruitee-personio-teamtailor)
+## [Workable, Recruitee, Personio, Teamtailor, SmartRecruiters Jobs](https://apify.com/atarivo/ats-jobs-api-workable-recruitee-personio-teamtailor)
 
-Every open job from the Workable, Recruitee, Personio and Teamtailor boards you list: title, location, remote flag, date, apply URL. $0.002/job, no login.
+Open jobs from the Workable, Recruitee, Personio, Teamtailor and SmartRecruiters boards you list: title, location, remote, date, apply URL. $0.002/job.
 
 **[Open it on the Apify Store](https://apify.com/atarivo/ats-jobs-api-workable-recruitee-personio-teamtailor)** · [agent-readable page](https://apify.com/atarivo/ats-jobs-api-workable-recruitee-personio-teamtailor.md) · [tutorial](../tutorials/ats-jobs-api-workable-recruitee-personio-teamtailor.md)
 
