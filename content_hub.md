@@ -23,6 +23,7 @@ saved, and no AI model inside.
 ## Code
 
 - Examples (Python, JavaScript, curl) and tutorials: https://github.com/atarivo/apify-actor-examples
+- Agent Skills (`SKILL.md` for Claude Code, Codex and other MCP clients): https://github.com/atarivo/apify-actor-examples/tree/main/skills
 
 ## Support
 

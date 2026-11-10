@@ -50,6 +50,21 @@ for job in client.dataset(run.default_dataset_id).iterate_items():
     print(job["title"], "|", job["location"], "|", job["apply_url"])
 ```
 
+## Agent Skills (Claude Code, Codex and other MCP clients)
+
+Two `SKILL.md` files teach a coding agent when and how to call these Actors through the
+[Apify MCP server](https://mcp.apify.com) (`https://mcp.apify.com?tools=atarivo/<actor>`), with the input
+fields, the output shape, the cost per result and the edge cases spelled out. Copy a folder into your
+agent's skills directory, or point the agent at the file:
+
+| Skill | Covers | File |
+|---|---|---|
+| `apify-pdf-to-markdown-ocr` | PDF, scanned image and Word files to per-page text, Markdown, tables and RAG chunks | [skills/apify-pdf-to-markdown-ocr/SKILL.md](skills/apify-pdf-to-markdown-ocr/SKILL.md) |
+| `apify-ats-jobs-data` | Open jobs from Greenhouse, Lever, Ashby, Workable, Recruitee, Personio, Teamtailor, SmartRecruiters and three remote job boards, one schema | [skills/apify-ats-jobs-data/SKILL.md](skills/apify-ats-jobs-data/SKILL.md) |
+
+Both say our line plainly: no login, no credential of yours, no circumvention. The Actors read what is
+public or what you hand them, and nothing else.
+
 ## Tutorials and examples
 
 | Actor | Tutorial | Python | JavaScript | curl |
